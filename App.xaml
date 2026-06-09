@@ -1,0 +1,46 @@
+﻿<Application x:Class="BatteryModeController.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BatteryModeController"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Light Theme (default) -->
+        <Color x:Key="PageBgColor">#f0f0f0</Color>
+        <Color x:Key="CardBgColor">#ffffff</Color>
+        <Color x:Key="CardBorderColor">#e0e0e0</Color>
+        <Color x:Key="TextPrimaryColor">#1a1a1a</Color>
+        <Color x:Key="TextSecondaryColor">#888888</Color>
+        <Color x:Key="AccentBgColor">#005fb8</Color>
+        <Color x:Key="AccentFgColor">#ffffff</Color>
+        <Color x:Key="ActiveCardBorderColor">#005fb8</Color>
+        <Color x:Key="ToggleTrackColor">#cccccc</Color>
+        <Color x:Key="ToggleTrackCheckedColor">#005fb8</Color>
+        <Color x:Key="GreenColor">#2ecc71</Color>
+        <Color x:Key="GreenTextColor">#1e8a3c</Color>
+        <Color x:Key="RedColor">#e74c3c</Color>
+        <Color x:Key="RedTextColor">#c05028</Color>
+        <Color x:Key="AcCardBgColor">#f0f6ff</Color>
+        <Color x:Key="AcCardBorderColor">#c8daf5</Color>
+        <Color x:Key="BatCardBgColor">#fff5f0</Color>
+        <Color x:Key="BatCardBorderColor">#f0dac8</Color>
+
+        <SolidColorBrush x:Key="PageBackground" Color="{DynamicResource PageBgColor}"/>
+        <SolidColorBrush x:Key="CardBackground" Color="{DynamicResource CardBgColor}"/>
+        <SolidColorBrush x:Key="CardBorder" Color="{DynamicResource CardBorderColor}"/>
+        <SolidColorBrush x:Key="TextPrimary" Color="{DynamicResource TextPrimaryColor}"/>
+        <SolidColorBrush x:Key="TextSecondary" Color="{DynamicResource TextSecondaryColor}"/>
+        <SolidColorBrush x:Key="AccentBackground" Color="{DynamicResource AccentBgColor}"/>
+        <SolidColorBrush x:Key="AccentForeground" Color="{DynamicResource AccentFgColor}"/>
+        <SolidColorBrush x:Key="ActiveCardBorder" Color="{DynamicResource ActiveCardBorderColor}"/>
+        <SolidColorBrush x:Key="ToggleTrack" Color="{DynamicResource ToggleTrackColor}"/>
+        <SolidColorBrush x:Key="ToggleTrackChecked" Color="{DynamicResource ToggleTrackCheckedColor}"/>
+        <SolidColorBrush x:Key="GreenBrush" Color="{DynamicResource GreenColor}"/>
+        <SolidColorBrush x:Key="GreenTextBrush" Color="{DynamicResource GreenTextColor}"/>
+        <SolidColorBrush x:Key="RedBrush" Color="{DynamicResource RedColor}"/>
+        <SolidColorBrush x:Key="RedTextBrush" Color="{DynamicResource RedTextColor}"/>
+        <SolidColorBrush x:Key="AcCardBackground" Color="{DynamicResource AcCardBgColor}"/>
+        <SolidColorBrush x:Key="AcCardBorder" Color="{DynamicResource AcCardBorderColor}"/>
+        <SolidColorBrush x:Key="BatCardBackground" Color="{DynamicResource BatCardBgColor}"/>
+        <SolidColorBrush x:Key="BatCardBorder" Color="{DynamicResource BatCardBorderColor}"/>
+    </Application.Resources>
+</Application>
