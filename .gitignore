@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+
+# IDE
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build outputs
+out/
+publish/
+
+# OS
+Desktop.ini
+Thumbs.db
+.DS_Store
+$RECYCLE.BIN/
+
+# NuGet
+packages/
+*.nupkg
