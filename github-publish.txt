@@ -1,0 +1,49 @@
+============================================================
+  GitHub Release Description (paste into release notes)
+============================================================
+
+Battery Mode Controller v1.0
+
+A lightweight Windows WPF app that automatically switches your
+power plan when you plug or unplug your laptop.
+
+  Features
+  - Manual mode: pick and apply any power plan
+  - Auto mode: assign AC/battery plans, auto-switches on
+    plug/unplug
+  - Shows current AC status and battery percentage
+  - Auto-detects Windows light/dark theme
+  - Active plan indicator
+  - Preferences saved between sessions
+  - No background processes — close to exit
+
+  Requirements
+  Windows 10 or 11 with .NET 9.0 Runtime
+
+============================================================
+  Social / Community Post
+============================================================
+
+I built a tiny Windows app that auto-switches your power plan
+when you plug or unplug your laptop — no more running
+"Power Saver" while plugged in.
+
+Manual mode, auto mode with AC/Battery plan assignment, dark
+theme support, and it sits in a small window — no tray icon,
+no bloat.
+
+Built with WPF + .NET 9. P/Invokes powercfg under the hood.
+
+https://github.com/YOUR_USER/BatteryModeController
+
+#dotnet #wpf #windows #powersave
+
+============================================================
+  Suggested commit message for initial push
+============================================================
+
+Initial commit: Battery Mode Controller v1.0
+
+WPF app to manually or automatically switch Windows power
+plans on AC/battery transitions. Includes light/dark theme
+support and persistent preferences.
